@@ -1,0 +1,36 @@
+/* You can add global styles to this file, and also import other style files
+.flexContainer{
+    display:flex;
+}
+.flexCenter{
+    justify-content:center;
+}
+.fullHeight{
+    height:100vh;
+}
+.itemCenter{
+    align-items: center;
+} */
+
+.flexRowContainer{
+    display:inline;
+}
+.flexColumnContainer{
+    display:flex;
+    justify-content: space-evenly
+}
+.flexRightAlign {
+    justify-content: flex-end
+}
+body {
+    font-family:Tahoma;
+}
+.headerLinks {
+    color: #52483d;
+    font-size:13px;
+    font-weight: 700;
+}
+.greyText {
+    color: #52483d; 
+    
+}

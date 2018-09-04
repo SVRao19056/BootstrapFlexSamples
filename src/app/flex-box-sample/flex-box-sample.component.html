@@ -1,0 +1,61 @@
+<div class="container  flexColumnContainer" >
+    <div class="flex-item   ml-auto" style="flex-basis:30%;" > <!--SafeWay Icon-->
+      <a href="#"><img class="img-responsive" src="../assets/images/header_logo_safeway.png" alt="Max-width 100%" /> </a>
+    </div>
+      <div class="  flexRowContainer " style="flex-basis:50%;"> 
+             <div class="d-inline-flex  justify-content-center align-items-stretch headerLinks mb-2"> <!-- Delivery | Rewards | My List-->
+            <div class="p-1 ">
+            <a href="#"><img class="img-responsive" src="../../assets/images/header_grocerydeliveryicon.png" size="80%" alt="delivery" /> 
+              <span class="headerLinks"> Delivery</span></a>
+            </div>
+          <div class="p-1  ">
+          <a href="#" ><img class="img-responsive" src="../../assets/images/gray_giftbox.png" /> 
+              <span class="headerLinks"> Rewards</span> 
+            </a>
+          </div>
+          <div class="p-1 ">  
+              <a href="#"><img  src="../../assets/images/header_mylisticon.png" /> 
+                    <span class="headerLinks" > My List</span>  
+              </a> 
+          </div>
+          <!-- <div class="p-1 ">  
+              <a href="#"><img  src="../../assets/images/header_mylisticon.png" /> 
+                    <span style="color: #52483d; font-weight: bold"> One More</span>  
+              </a> 
+          </div> -->
+        </div>
+       <div class="flex-item greyText "> {{address}} <!-- Adddress-->
+      </div>
+      <div class="flex-item "> <!-- Change my Store | Store Locator-->
+        <a href="#" >
+          <img class="img-responsive" src="../../assets/images/header_mystoreicon.png" />
+          <span class="headerLinks"> Change My Store</span>  
+        </a>
+        |
+        <a href="#">
+            <span class="headerLinks">Store Locator </span>  
+        </a>
+      </div>
+    </div>
+    <div class="flex-item">
+        <div class="d-flex-column"> <!--Welcome -->
+          <div class="flex-item">
+          <span class = "d-inline text-truncate greyText" >Welcome, {{name}} </span>
+        </div>
+      <div class="flex-item "> <!--Sign In ... -->
+        <span class="p-1"> <a href="#"> <span class="headerLinks"> Sign In</span>   </a> </span>
+          |
+          <span class="p-1">   <a href="#"><span class="headerLinks"> Register</span>   </a> </span>
+      </div>
+      <div class="flex-item border border-dark">
+        <input class="border-0" type="text" placeholder="Serach By Keyword" ><fa-icon [icon]="faSearch"></fa-icon>
+      </div>
+    </div>
+    </div> 
+  
+  </div>
+
+<p>
+{{title}}
+  
+</p>
